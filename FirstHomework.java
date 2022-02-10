@@ -14,8 +14,7 @@ class FirstHomework {
     }
 
     static void checkSumSign() {
-        int a = 8;
-        int b = 12;
+        int a = 8, b = 12;
         System.out.println((a + b >= 0) ? "Positive" : "Negative");
     }
 
@@ -23,9 +22,11 @@ class FirstHomework {
         int value = 14;
         if (value <= 0) {
             System.out.println("Red");
-        } else if (value > 0 & value <= 100) {
+        } 
+        if (value > 0 & value <= 100) {
             System.out.println("Yellow");
-        } else {
+        } 
+        else {
             System.out.println("Green");
         }
     }
