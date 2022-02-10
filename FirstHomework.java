@@ -32,8 +32,7 @@ class FirstHomework {
     }
 
     static void compareNumbers() {
-        int a = 12;
-        int b = 14;
+        int a = 12, b = 14;
         System.out.println((a >= b) ? "a >= b" : "a < b");
     }
 }
