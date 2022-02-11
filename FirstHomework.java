@@ -1,4 +1,11 @@
-
+/**
+ *Java 1. Homework #4.
+ *
+ * @author Grave Elizaveta
+ * @version 07.02.2022
+ *
+ */
+ 
 class FirstHomework {
     public static void main(String[]args) {
         printThreeWords();
