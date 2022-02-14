@@ -32,9 +32,9 @@ class MainConstruction {
 
     //4
 
-    static void printText(String word, int m) {
+    static void printText(String str, int m) {
         for (int i = 0; i < m; i++) {
-            System.out.println("word");
+            System.out.println(str);
         }
     }
 
