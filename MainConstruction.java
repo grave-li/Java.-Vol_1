@@ -10,7 +10,13 @@
 class MainConstruction {
     public static void main(String[]args) {
         System.out.println(checkSum(5, 3));
+        System.out.println(checkSum(13, 5));
+        System.out.println(checkSum(5, -3));
+        
         checkNum(9);
+        checkNum(0);
+        checkNum(-1);
+        
         System.out.println(checkValue(-5));
         printText("word", 3);
     }
